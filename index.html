@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Encontre os pares</title>
+  <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Saira+Condensed:wght@500" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Tela Inicial -->
+
+  <div id="tela-inicial" class="tela-inicial visivel">
+    <h1>🔥 😂 😎 🚀 👀 🤡</h1>
+    <h1>ENCONTRE OS PARES</h1>
+    <div class="dicas">
+      <p style="margin-top: -20px;">O objetivo do jogo é encontrar os pares dos Emojis</p>
+    </div>
+    <div class="dicas-quadro">
+      <p><b>Limite de jogadas</b><br><br>Fique atento ao número de jogadas <br>disponíveis em cada nível</p>
+      <p><b>Carta coringa</b><br><br>A carta coringa revela todas as <br>cartas do tabuleiro temporariamente</p>
+    </div>
+    <div class="tela-inicial-btn">
+      <button id="inicio-btn" style="width: 100%;">Jogar</button>
+    </div>
+  </div>
+
+  <!-- Header -->
+
+  <header class="header">
+    <div class="container">
+      <div class="contadores">
+        <div class="contador-item">
+          <h4 class="header-titulo">Movimentos</h4>
+          <div class="header-num">
+            <span id="mov">00</span>/<span id="mov-total">20</span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="nivel">
+        <h4 class="header-titulo">Tempo</h4>
+        <div class="header-num"><span id="tempo">00:00</span></div>
+      </div> -->
+      <div class="nivel">
+        <h4 class="header-titulo">Nivel</h4>
+        <div class="header-num"><span id="nivel">01</span></div>
+      </div>
+    </div>
+    <div class="tempo" id="tempo">00:00</div>
+  </header>
+
+  <!-- Mesa -->
+
+  <main>
+    <div id="mesa" class="mesa"></div>
+    <div id="footer">
+      <button id="carta-coringa">🃏</button>
+    </div>
+
+    <!-- Modais -->
+
+    <div id="proximoNivel" class="proximo-nivel">
+      <div class="modal">
+        <h2>Muito bem!</h2>
+        <button id="proximoNivel-btn">Próximo nivel</button>
+      </div>
+    </div>
+
+    <div id="gameOver" class="game-over">
+      <div class="modal">
+        <h2>Game Over</h2>
+        <p>Você ficou sem movimentos 😭</p>
+        <button class="reiniciar">Reiniciar</button>
+      </div>
+    </div>
+
+    <div id="gameOver-tempo" class="game-over">
+      <div class="modal">
+        <h2>Game Over</h2>
+        <p>Você ficou sem tempo 😭</p>
+        <button class="reiniciar">Reiniciar</button>
+      </div>
+    </div>
+
+    <div id="endGame" class="end-game">
+      <div class="modal">
+        <h2>Parabéns</h2>
+        <p>Você zerou o jogo! 🏆</p>
+        <button class="reiniciar">Reiniciar</button>
+      </div>
+    </div>
+  </main>
+
+  <audio src="audio/acertou.mp3" class="audio" id="audio-acertou" preload="auto"></audio>
+  <audio src="audio/errou.mp3" class="audio" id="audio-errou" preload="auto"></audio>
+  <audio src="audio/flip.mp3" class="audio" id="audio-carta" preload="auto"></audio>
+  <audio src="audio/coringa.mp3" class="audio" id="audio-coringa" preload="auto"></audio>
+  <audio src="audio/venceu.mp3" class="audio" id="audio-venceu" preload="auto"></audio>
+
+  <script src="js/variaveisGlobais.js"></script>
+  <script src="js/carta.js"></script>
+  <script src="js/niveis.js"></script>
+  <script src="js/confete.js"></script>
+</body>
+
+</html>
