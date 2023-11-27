@@ -9,6 +9,10 @@ Seu objetivo é simples: encontrar os pares correspondentes dos emojis espalhado
 2. Carta Coringa: Utilize sabiamente a carta coringa, que revela temporariamente todas as cartas no tabuleiro. Uma ferramenta poderosa para quem busca vantagem estratégica.
 3. Tempo Decrescente: Cada nível possui um cronômetro decrescente. Seja ágil e preciso para encontrar todos os pares antes que o tempo se esgote. O desafio aumenta a cada nível!
 
+# Como Jogar 🕹️ 
+1. Clique https://thalysonc.github.io/encontre-os-pares/
+2. Divirta-se encontrando os pares e superando seus próprios recordes!
+
 # Contribua 🚀
 Gostou do jogo? Tem ideias para melhorias ou novos recursos? Sinta-se à vontade para contribuir! Abra um problema ou envie um pull request. Sua colaboração é bem-vinda.
 
