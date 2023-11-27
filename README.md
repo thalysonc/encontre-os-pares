@@ -25,3 +25,12 @@ Jogo desenvolvido com:
 2. CSS
 3. JavaScript
 4. ChatGPT
+
+# Licença
+O código original do jogo foi desenvolvido por Willian Ferreira https://github.com/William-Nogueira/EmojiMatch e modificado por mim
+
+# Mudanças em relação ao código original
+1. Adição de mais emojis
+2. Adição do tempo decrescente em cada nível
+3. Alteração de toda a lógica de selecionar e embaralhar as cartas, melhorando significativamente o embaralhamento das cartas em cada nível
+4. Ajustes na Responsividade
