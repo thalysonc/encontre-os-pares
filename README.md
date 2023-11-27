@@ -27,7 +27,7 @@ Jogo desenvolvido com:
 4. ChatGPT
 
 # Licença
-O código original do jogo foi desenvolvido por Willian Ferreira https://github.com/William-Nogueira/EmojiMatch e modificado por mim
+O código original do jogo foi desenvolvido por William Nogueira https://github.com/William-Nogueira/EmojiMatch e modificado por mim
 
 # Mudanças em relação ao código original
 1. Adição de mais emojis
