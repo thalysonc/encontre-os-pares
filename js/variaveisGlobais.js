@@ -23,9 +23,11 @@ function emojisAleatorios(total) {
 
   let emojisAleatorios = [];
 
-  while (emojisAleatorios.length < total) {
-    let emojiAleatorio = emojis[Math.floor(Math.random() * emojis.length)];
+  for (let i = 0; i < total && emojis.length > 0; i++) {
+    let index = Math.floor(Math.random() * emojis.length);
+    let emojiAleatorio = emojis[index];
     emojisAleatorios.push(emojiAleatorio);
+    emojis.splice(index, 1);
   }
 
   return emojisAleatorios;
